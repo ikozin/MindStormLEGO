@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="widgetBorder">#8F8F8F</color>
+    <color name="widgetBackColor">#3F3F3F</color>
+    <color name="gradientWidgetEndColor">#0066FF</color>
+    <color name="gradientWidgetStartColor">#003399</color>
+    <color name="gradientWidgetPressedEndColor">#0020FF</color>
+    <color name="gradientWidgetPressedStartColor">#0080FF</color>
+        
+</resources>

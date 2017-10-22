@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NxtTheme" parent="@android:style/Theme.Black">
+        <item name="android:textColor">#F0E68C</item>
+        <item name="android:buttonStyle">@style/NxtThemeButton</item>
+        <item name="android:seekBarStyle">@style/NxtThemeSeekBar</item>
+    </style>
+
+    <style name="NxtThemeButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="NxtThemeSeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:thumbOffset">8px</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>
